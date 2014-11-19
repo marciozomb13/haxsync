@@ -1,2 +1,162 @@
 <?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HaxSync</string>
+    <string name="ACCOUNT_TYPE">org.mots.haxsync.account</string>
+    <string name="general_settings">Configurações Gerais</string>
+    <string name="general_summary">Aplicativo do Facebook, Frequência de Sincronização, Economia de Recursos</string>
+    <string name="contact_settings">Configurações de Contato</string>
+    <string name="contact_summary">Correspondência de Contatos, atualizações de Status, Recorte de Imagens</string>
+    <string name="calendar_settings">Configurações de Calendário</string>
+    <string name="calendar_summary">Sincronizar Eventos</string>
+    <string name="sync_events">Sincronizar Eventos</string>
+    <string name="sync_events_summary">"Se marcada, vai sincronizar eventos em que você estiver participando num calendário separado."</string>
+    <string name="contact_sync">Sincronização de Contatos</string>
+    <string name="phone_only">Apenas contatos existentes</string>
+    <string name="phone_only_summary">Sincronizar apenas contatos já no dispositivo.</string>
+    <string name="fuzziness">Grau de Seleção</string>
+    <string name="fuzziness_summary">Útil quando nomes no Facebook e no Telefone são diferentes.</string>
+    <string name="additional_friends">Amigos adicionais para sincronizar</string>
+    <string name="additional_friends_summary">"Estes amigos serão sincronizados mesmo sem nenhum nome correspondente na agenda."</string>
+    <string name="status_updates">Atualizações de Status</string>
+    <string name="sync_status">Sinc. Atualizações de Status</string>
+    <string name="status_new">Usar API Nova</string>
+    <string name="status_new_summary">Altamente recomendado. Exige o Android 4.0.3 ou acima.</string>
+    <string name="contact_images">Imagens de Contato</string>
+    <string name="crop_square">Cortar quadrado</string>
+    <string name="crop_square_summary">Usar detecção de rosto para selecionar a melhor área da foto.</string>
+    <string name="sync_options">Opções de Sincronização</string>
+    <string name="sync_freq">Frequência de Sincronização</string>
+    <string name="resource_saving">Economia de Recursos</string>
+    <string name="wifi_only_summary">Só sicronizar em redes Wi-Fi.</string>
+    <string name="wifi_only">Apenas em Wi-Fi</string>
+    <string name="charging_only">Só sincronizar quando carregando</string>
+    <string name="charging_only_summary" />
+    <string name="getting_friends">Obtendo Amigos…</string>
+    <string name="sync_every">Sincronizar a Cada</string>
+    <string name="days">Dias</string>
+    <string name="hours">Horas</string>
+    <string name="minutes">Minutos</string>
+    <string name="birthday">"Aniversário de %1$s"</string>
+    <string name="preferences">Configurações Avançadas</string>
+    <string name="preferences_summary">"Quer uma configuração mais refinada?\nTente as configurações avançadas!"</string>
+    <string name="about">Sobre</string>
+    <string name="birthday_cal">Aniversários do HaxSync</string>
+    <string name="event_cal">Eventos HaxSync</string>
+    <string name="event_sync">Sincronizar Eventos</string>
+    <string name="birthday_sync">Sincronizar Aniversários</string>
+    <string name="calendar_color">Cor do Calendário</string>
+    <string name="sync_birthdays">Sincronizar Aniversários</string>
+    <string name="sync_self">Sinc. o contato \"Eu\"</string>
+    <string name="sync_self_summary">"Sincroniza suas próprias informações do Facebook com o seu perfil \"Eu\" no Android."</string>
+    <string name="timeline_all">Exibir a timeline completa</string>
+    <string name="timeline_all_summary">"Exibir a timeline completa, contendo também eventos de terceiros."</string>
+    <string name="thanks">
+<![CDATA[
+         <b>Daniel Pfeller</b><br /> <i>Development</i><br />
+        <b><a href="http://www.c99.org/">Sam Steele</a></b><br /><i>Sync Adapter sample code, licensed under the Apache Public License</i><br />
+ 	    <b><a href="http://www.apache.org/">Apache Software Foundation</a></b><br /><i>commons.lang, licensed under the Apache Public License</i><br />
+ 	    <b><a href="https://twitter.com/snalty/">Sam Nalty</a></b><br /><i>Wizard Design</i><br />
+ 	    <b><a href="http://originell.org/">Luis Nell</a></b><br /><i>\"Comment\" and \"Like\" icons</i><br />
+ 	    <b>Sergey Margaritov & Daniel Nilsson</b><br /><i>ColorPickerPreference, licensed under the Apache Public License</i><br />
+ 	    <b><a href="http://www.espiandev.co.uk">Alex Curran</a></b><br /><i>ShowcaseView, licensed under the Apache Public License</i><br />
+ 	    <b>Lorenzo Villani and the Android Team</b><br /><i>Image Cropping Activity, licensed under the Apache Public License</i><br />
+ 	    <b>Alex Yanchenko</b><br /><i>MultiSelectListPreference, licensed under the Apache Public License</i><br />
+ 	    <b>JJ Ford</b><br /><i>Shell.java, licensed under the MIT License</i><br />
+ 	    <b>Lukas Lehner</b><br /> <i>Testing</i><br />
+ 	    <b><a href="http://mpranj.limun.org/">Mihael Pranjić</b><br /><i>Testing, Croatian Translation, Hosting</i><br />
+ 	    <b>Marin Bilić</b><br /> <i>Croatian Translation</i><br />
+ 	    <b>Lukács Attila</b><br /><i>Hungarian Translation</i><br />
+ 	    <b>Yasin Yıldırım</b><br /><i>Turkish Translation</i><br />
+ 	    <b>Per Kristian Sørpebøl</b><br /><i>Norwegian Translation</i><br />
+ 	    <b>Pablo Alcayaga</b><br /><i>Spanish Translation</i><br />
+ 	    <b>Adam Salač</b><br /><i>Czech Translation</i><br />
+	    <b>João Rocha</b><br /><i>Portuguese Translation</i><br />
+	    <b>Giang Nguyễn Hoàng</b><br /><i>Vietnamese Translation</i><br />
+ 	    <b>Luigi Apicella</b><br /><i>Italian Translation</i><br />
+ 	    <b>Jasper Makkinje</b><br /><i>Dutch Translation</i><br />
+ 	    <b>Kamil Nowakowski</b><br /><i>Polish Translation</i><br />
+ 	    <b>Marcio Andrade</b><br /><i>Brazilian Portuguese Translation</i><br />
+ 	     	    ]]>
+    </string>
+    <string name="google_backup">Salvar vínculos de contatos</string>
+    <string name="google_backup_summary">Adiciona marcas HTCData aos seus contatos do Google. Útil ao redefinir seu telefone ou trocar de ROM.</string>
+    <string name="google_backup_warning">Isso vai sobrepor o campo \"Notas\" nos seus contatos do Google. Tem certeza que deseja continuar?</string>
+    <string name="phone_only_cal">Apenas contatos do telefone</string>
+    <string name="phone_only_cal_summary">Criar eventos de aniversários apenas para contatos do telefone.</string>
+    <string name="face_detect">Usar Detecção de Rostos</string>
+    <string name="force_dl">Forçar novo download</string>
+    <string name="force_dl_summary">Forçar o download de todas as fotos na próxima sincronização.</string>
+    <string name="sync_location">Sincronizar endereços</string>
+    <string name="google_select">Selecione uma comta Google</string>
+    <string name="token_notification_title">Resposta inválida</string>
+    <string name="token_notification_ticker">Resposta inválida do Facebook</string>
+    <string name="token_notification_description">Toque para dar as permissões</string>
+    <string name="event_status">Eventos para sincronizar</string>
+    <string name="event_status_description">Sincronizar apenas eventos com algum status RSVP.</string>
+    <string name="reminders">Criar lembretes</string>
+    <string name="remind_me">Lembrar-me</string>
+    <string name="remind_before">antes do evento.</string>
+    <string name="reminder_time">Hora do Lembrete</string>
+    <string name="jb_warning_ticker">O Jelly Bean workaround é exigido!</string>
+    <string name="jb_warning_title">Jelly Bean workaround</string>
+    <string name="jb_warning_description">Instalar para previnir perda de dados ao reiniciar.</string>
+    <string name="title_contact_detail">Detalhes do Contato</string>
+    <string name="title_contact_list">Contatos</string>
+    <string name="linked_with_google">Vinculado ao Google Contact %1$s</string>
+    <string name="not_linked_with_google">Não vinculado a nenhum contato Google</string>
+    <string name="force_image_redl">Recarregar imagem</string>
+    <string name="manually_crop">Cortar</string>
+    <string name="add_contact">Adicionar contato</string>
+    <string name="sync_birthday_contact_description">Sincronizar aniversário diretamente no contato. NOTA: Isto é separado do aniversário no calendário.</string>
+    <string name="sync_facebook_email">Sincronizar e-mails @facebook.com</string>
+    <string name="sync_facebook_email_description">"Adicionar e-mails \"username@facebook.com\" aos contatos (o Facebook não permite acesso aos outros endereços). Exigido para links de contatos em Eventos."</string>
+    <string name="wait_syncing">Por favor aguarde o HaxSync terminar a sincronização.</string>
+    <string name="no_contacts">Nenhum contato do HaxSync encontrado!</string>
+    <string name="join_with">Juntar</string>
+    <string name="seperate">Separar</string>
+    <string name="workaround_warning">Tenha cuidado, se você não instalar o Jelly Bean Workaround, seus dados do HaxSync serão perdidos após uma reinicialização. Só continue se tomou suas precauções e sabe o que está fazendo.</string>
+    <string name="workaround_description">Devido à um bug no Android/Google Play, a conta do HaxSync é deletada à cada reinicialização. Para evitar isso, instale meu app grátis, o Jelly Bean Workaround.</string>
+    <string name="contact_manager">Gerenciar Contatos</string>
+    <string name="contact_manager_description">Sincronizar manualmente, editar vínculos e cortar imagens!</string>
+    <string name="synchronizing">Sincronizando…</string>
+    <string name="visit_fb">Visite o HaxSync no Facebook</string>
+    <string name="visit_fb_description">Obtenha as últimas notícias sobre o app aqui. Algo não está funcionando como deveria? Cheque a página do Facebook, talvez seja um problema conhecido; a página do Facebook vai te manter informado.</string>
+    <string name="report_issue">Relatar um problema</string>
+    <string name="report_issue_description">Tendo problemas? Ou tem uma grande idéia de nova função? Relate aqui! NOTA: Eu não posso responder comentários na Play Store, então classificações ruins não ajudarão a resolver seu problema.</string>
+    <string name="update_google_photos">Atualizar fotos nos Contatos Google</string>
+    <string name="update_google_photos_description">Sobrescreve as fotos armazenadas nos Contatos Google com as obtidas com o HaxSync.</string>
+    <string name="step">Passo %1$d/%2$d</string>
+    <string name="done">Concluído</string>
+    <string name="logged_in">Conectado.</string>
+    <string name="wizard">Assistente</string>
+    <string name="wiz_login_fb_header">Conectar ao Facebook</string>
+    <string name="wiz_login_fb_text1">Primeiro, precisamos autorizar o HaxSync no Facebook.</string>
+    <string name="wiz_login_fb_text2">Para isso, precisamos conectar à sua conta do Facebook.</string>
+    <string name="wiz_settings_header">O que vamos sincronizar?</string>
+    <string name="wiz_settings_text">Agora precisamos decidir o que sincronizar.</string>
+    <string name="contacts_to_sync">Contatos para sincronizar</string>
+    <string name="wiz_settings_reminder">Criar lembretes para aniversários e eventos</string>
+    <string name="wiz_workaround_header">Solução Alternativa</string>
+    <string name="wiz_workaround_text1">Sua versão do Android tem um bug que afeta negativamente o HaxSync.</string>
+    <string name="wiz_workaround_text2">Por favor instale a solução alternativa para previnir este problema.</string>
+    <string name="install_from_google_play">Instalar da Google Play</string>
+    <string name="wiz_success_text1">Obrigado por configurar o Haxsync.\nSeu conteúdo será sincronizado.</string>
+    <string name="wiz_success_text2">Se você quiser editar as configurações ou quiser mais controle sobre o comportamento do HaxSync, vá para Contas nas Configurações e selecione sua conta HaxSync.</string>
+    <string name="wiz_existing_settings_header">Pular as Configurações?</string>
+    <string name="wiz_existing_settings_text1">Você já tem algumas configurações do HaxSync definidas anteriormente.</string>
+    <string name="wiz_existing_settings_text2">O proximo passo pode sobrepor algumas das suas configurações.</string>
+    <string name="wiz_existing_settings_skip">Pular</string>
+    <string name="wiz_existing_settings_display">Mostrar assim mesmo</string>
+    <string name="wiz_success_hide">Ocultar o Assistente na Grade de Apps</string>
+    <string name="next">Avançar</string>
+    <string name="welcome">Bem-vindo ao HaxSync</string>
+    <string name="touch_logo">Toque no logo para começarmos</string>
+    <string name="fb_app">App do Facebook</string>
+    <string name="fb_app_description">Aplicativo para abrir perfis, atualizações de status e fotos</string>
+    <string name="image_primary">Sempre usar as imagens do HaxSync</string>
+    <string name="image_primary_description">Contatos com fotos de diversas fontes darão preferência às do HaxSync.</string>
+    <string name="ignore_middle_names">Ignorar nomes do meio e títulos</string>
+    <string name="ignore_middle_names_summary">Ignora nomes do meio e títulos (exemplo: Dr.) dos amigos no Facebook.</string>
+    <string name="add_me_to_friends">Sincronizar \"Eu\" com meu próprio registro de contato</string>
+    <string name="add_me_to_friends_summary">Se você tiver salvo você mesmo como contato, o mesmo será sincronizado com o perfil do Facebook.</string>
 <resources/>
